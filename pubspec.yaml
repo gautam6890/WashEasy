@@ -1,0 +1,43 @@
+name: WashEasy
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.14.0
+  firebase_auth: ^6.6.1
+  cloud_firestore: ^6.9.0
+  firebase_storage: ^13.5.0
+  image_picker: ^1.2.3
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+#    - assets/images/login_background.png
+    - assets/images/customer_dashboard_bg.jpg
+    - assets/images/washeasy_logo.png
+    - assets/images/owner_dashboard_bg.jpeg
+    - assets/images/services/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/washeasy_logo.png"
+  min_sdk_android: 21
